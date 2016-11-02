@@ -1072,7 +1072,7 @@
 		background: #f0f0f0;
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #536DF4;
+		color: #777;
 	}
 
 		body.is-loading * {
@@ -1095,11 +1095,11 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #260D72;
+		color: #888;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: #260D72;
+		color: inherit;
 		text-decoration: none;
 		border: 0;
 	}
@@ -1206,6 +1206,7 @@
 		.image img {
 			display: block;
 			width: 100%;
+			border: 6px #303030;
 		}
 
 		.image.fit {
@@ -1646,7 +1647,7 @@
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #536DF4;
+			color: #303030;
 		}
 
 /* Nav */
